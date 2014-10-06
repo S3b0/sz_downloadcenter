@@ -180,8 +180,8 @@ return array(
 			'label' => 'LLL:EXT:sz_downloadcenter/Resources/Private/Language/locallang_db.xml:tx_szdownloadcenter_domain_model_file.file_category',
 			'config' => array(
 				'type' => 'select',
-				'foreign_table' => 'tx_szdownloadcenter_domain_model_file_category',
-				'foreign_table_where' => 'AND tx_szdownloadcenter_domain_model_file_category.sys_language_uid IN (-1,0) AND tx_szdownloadcenter_domain_model_file_category.deleted=0 ORDER BY tx_szdownloadcenter_domain_model_file_category.title',
+				'foreign_table' => 'tx_szdownloadcenter_domain_model_filecategory',
+				'foreign_table_where' => 'AND tx_szdownloadcenter_domain_model_filecategory.sys_language_uid IN (-1,0) AND tx_szdownloadcenter_domain_model_filecategory.deleted=0 ORDER BY tx_szdownloadcenter_domain_model_filecategory.title',
 				'minitems' => 0,
 				'maxitems' => 1,
 			),

@@ -106,10 +106,10 @@
 		<trans-unit id="tx_szdownloadcenter_domain_model_file.title" xml:space="preserve">
 			<source>Title</source>
 		</trans-unit>
-		<trans-unit id="tx_szdownloadcenter_domain_model_file_category" xml:space="preserve">
+		<trans-unit id="tx_szdownloadcenter_domain_model_filecategory" xml:space="preserve">
 			<source>File Category</source>
 		</trans-unit>
-		<trans-unit id="tx_szdownloadcenter_domain_model_file_category.title" xml:space="preserve">
+		<trans-unit id="tx_szdownloadcenter_domain_model_filecategory.title" xml:space="preserve">
 			<source>Title</source>
 		</trans-unit>
 		<trans-unit id="tx_szdownloadcenter_domain_model_product" xml:space="preserve">

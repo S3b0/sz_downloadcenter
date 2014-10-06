@@ -5,7 +5,7 @@ if (!defined ('TYPO3_MODE')) {
 
 return array(
 	'ctrl' => array(
-		'title'    => 'LLL:EXT:sz_downloadcenter/Resources/Private/Language/locallang_db.xml:tx_szdownloadcenter_domain_model_file_category',
+		'title'    => 'LLL:EXT:sz_downloadcenter/Resources/Private/Language/locallang_db.xml:tx_szdownloadcenter_domain_model_filecategory',
 		'label' => 'title',
 		'tstamp' => 'tstamp',
 		'crdate' => 'crdate',
@@ -59,8 +59,8 @@ return array(
 				'items' => array(
 					array('', 0),
 				),
-				'foreign_table' => 'tx_szdownloadcenter_domain_model_file_category',
-				'foreign_table_where' => 'AND tx_szdownloadcenter_domain_model_file_category.pid=###CURRENT_PID### AND tx_szdownloadcenter_domain_model_file_category.sys_language_uid IN (-1,0)',
+				'foreign_table' => 'tx_szdownloadcenter_domain_model_filecategory',
+				'foreign_table_where' => 'AND tx_szdownloadcenter_domain_model_filecategory.pid=###CURRENT_PID### AND tx_szdownloadcenter_domain_model_filecategory.sys_language_uid IN (-1,0)',
 			),
 		),
 		'l10n_diffsource' => array(
@@ -117,7 +117,7 @@ return array(
 		),
 		'title' => array(
 			'exclude' => 0,
-			'label' => 'LLL:EXT:sz_downloadcenter/Resources/Private/Language/locallang_db.xml:tx_szdownloadcenter_domain_model_file_category.title',
+			'label' => 'LLL:EXT:sz_downloadcenter/Resources/Private/Language/locallang_db.xml:tx_szdownloadcenter_domain_model_filecategory.title',
 			'config' => array(
 				'type' => 'input',
 				'size' => 30,
